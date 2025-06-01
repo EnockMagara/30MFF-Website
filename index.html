@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WHEN THE CAMPUS SPEAKS</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-item" data-target="home">HOME</div>
+        <div class="nav-item" data-target="poem">POEM</div>
+        <div class="nav-item" data-target="sounds">SOUNDS</div>
+        <div class="nav-item" data-target="about">ABOUT</div>
+    </nav>
+
+    <!-- Audio Player -->
+    <div class="audio-player">
+        <div class="audio-control" id="audioToggle">
+            <div class="audio-icon">
+                <div class="sound-wave"></div>
+                <div class="sound-wave"></div>
+                <div class="sound-wave"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Home Section -->
+    <section class="section active" id="home">
+        <div class="hero-container">
+            <div class="title-stack">
+                <h1 class="main-title">WHEN THE</h1>
+                <h1 class="main-title highlight">CAMPUS</h1>
+                <h1 class="main-title">SPEAKS</h1>
+            </div>
+            <div class="subtitle-container">
+                <p class="subtitle">A SOUND STORY IN 90 SECONDS</p>
+                <div class="action-line">
+                    <span class="action-text">LISTEN TO THE LANGUAGE OF PLACE</span>
+                    <div class="arrow">→</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Embedded Cassette Player -->
+        <div class="cassette-player">
+            <div class="cassette-container">
+                <div class="cassette-header">
+                    <div class="cassette-label">CAMPUS SOUNDS 90"</div>
+                    <div class="cassette-type">TYPE I</div>
+                </div>
+                <div class="video-container">
+                    <iframe 
+                        src="https://www.youtube.com/embed/7Ux8DIa8lc8?rel=0&modestbranding=1&showinfo=0" 
+                        title="Campus in 90 Seconds: A Sound Story"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="cassette-controls">
+                    <div class="tape-reels">
+                        <div class="reel left-reel">
+                            <div class="reel-center"></div>
+                        </div>
+                        <div class="reel right-reel">
+                            <div class="reel-center"></div>
+                        </div>
+                    </div>
+                    <div class="control-buttons">
+                        <div class="btn-group">
+                            <div class="control-btn" data-action="rewind">⏪</div>
+                            <div class="control-btn" data-action="play">▶</div>
+                            <div class="control-btn" data-action="forward">⏩</div>
+                        </div>
+                        <div class="cassette-info">
+                            <div class="duration">01:30</div>
+                            <div class="side">SIDE A</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Poem Section -->
+    <section class="section" id="poem">
+        <div class="poem-container">
+            <div class="poem-header">
+                <h2 class="section-title">THE POEM</h2>
+                <div class="poem-subtitle">INSPIRED BY CAMPUS IN 90 SECONDS</div>
+            </div>
+            <div class="poem-content">
+                <div class="stanza">
+                    <p>What if the campus could speak?</p>
+                    <p>Not with words, but with breath—</p>
+                    <p>With rustling leaves and morning wheels,</p>
+                    <p>With clanks and chirps and laughter that lingers</p>
+                    <p>In the corners where memories nest.</p>
+                </div>
+                
+                <div class="stanza">
+                    <p>The elevator sighs, a metal yawn,</p>
+                    <p>Lifting stories floor by floor—</p>
+                    <p>A pause, a groan, a journey up—</p>
+                    <p>It speaks in gears, in stops and starts,</p>
+                    <p>In the language of in-between.</p>
+                </div>
+
+                <div class="stanza">
+                    <p>Outside, the sky holds an orchestra:</p>
+                    <p>Birdsong weaves through engine hums,</p>
+                    <p>Treetops whisper ancient tunes,</p>
+                    <p>And even silence holds a tone</p>
+                    <p>If you dare to lean in.</p>
+                </div>
+
+                <div class="stanza">
+                    <p>Footsteps echo in open halls,</p>
+                    <p>Each one a footnote in the day.</p>
+                    <p>Doors beep—a gentle chorus—</p>
+                    <p>And open into spaces</p>
+                    <p>Where voices bloom like morning light.</p>
+                </div>
+
+                <div class="stanza highlight-stanza">
+                    <p>At Baraha, the rhythm shifts—</p>
+                    <p>A sudden spark, a clash of joy,</p>
+                    <p>Where clinks of ping pong meet laughter's rise,</p>
+                    <p>And the spirit of friendly battle</p>
+                    <p>Sings in playful defiance.</p>
+                </div>
+
+                <div class="stanza">
+                    <p>Then comes D2, the midday heart—</p>
+                    <p>Where trays collide like cymbals,</p>
+                    <p>And stories stretch across the tables</p>
+                    <p>In bites, in beats, in bites again—</p>
+                    <p>A melody of mouths and music.</p>
+                </div>
+
+                <div class="stanza">
+                    <p>The marketplace hums a different song,</p>
+                    <p>A weaving of casual tunes and passing chatter,</p>
+                    <p>Where you move not just with feet</p>
+                    <p>But with ears wide open</p>
+                    <p>To the subtle percussion of presence.</p>
+                </div>
+
+                <div class="stanza">
+                    <p>This campus does not sit still—</p>
+                    <p>It lives, it moves, it speaks in waves.</p>
+                    <p>Its language is not heard by all,</p>
+                    <p>But it is felt by those who listen.</p>
+                </div>
+
+                <div class="stanza final-stanza">
+                    <p><strong>So listen—</strong></p>
+                    <p>To the buzz behind the quiet,</p>
+                    <p>To the heartbeat in the hum.</p>
+                    <p>Let the echoes wrap around your ribs,</p>
+                    <p>Let the soundtrack of place</p>
+                    <p>Become a part of your own rhythm.</p>
+                </div>
+
+                <div class="stanza">
+                    <p>Every wall remembers,</p>
+                    <p>Every bench breathes,</p>
+                    <p>Every breeze carries a conversation</p>
+                    <p>That needs no translation.</p>
+                </div>
+
+                <div class="stanza">
+                    <p>And in these 90 seconds,</p>
+                    <p>Time folds itself into sound,</p>
+                    <p>Memory walks beside movement,</p>
+                    <p>And meaning hums low under it all.</p>
+                </div>
+
+                <div class="stanza final-line">
+                    <p><strong>Even in silence, the campus sings.</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sounds Section -->
+    <section class="section" id="sounds">
+        <div class="sounds-container">
+            <h2 class="section-title">SONIC LANDSCAPE</h2>
+            <div class="sounds-grid">
+                <div class="sound-item" data-audio="elevator">
+                    <div class="sound-title">ELEVATOR</div>
+                    <div class="sound-desc">Metal yawns, gears grinding, vertical journeys</div>
+                    <div class="waveform"></div>
+                    <audio preload="metadata">
+                        <source src="public/elevator.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                
+                <div class="sound-item" data-audio="birdsong">
+                    <div class="sound-title">BIRDSONG</div>
+                    <div class="sound-desc">Sky orchestra weaving through engine hums</div>
+                    <div class="waveform"></div>
+                    <audio preload="metadata">
+                        <source src="public/BIRDSONG.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                
+                <div class="sound-item" data-audio="footsteps">
+                    <div class="sound-title">FOOTSTEPS</div>
+                    <div class="sound-desc">Echoing footnotes in empty halls</div>
+                    <div class="waveform"></div>
+                    <audio preload="metadata">
+                        <source src="public/FOOTSTEPS.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                
+                <div class="sound-item" data-audio="baraha">
+                    <div class="sound-title">BARAHA</div>
+                    <div class="sound-desc">Ping pong clashes, laughter rising</div>
+                    <div class="waveform"></div>
+                    <audio preload="metadata">
+                        <source src="public/BARAHA.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                
+                <div class="sound-item" data-audio="d2">
+                    <div class="sound-title">D2 DINING</div>
+                    <div class="sound-desc">Tray cymbals, table conversations</div>
+                    <div class="waveform"></div>
+                    <audio preload="metadata">
+                        <source src="public/D2.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                
+                <div class="sound-item" data-audio="marketplace">
+                    <div class="sound-title">MARKETPLACE</div>
+                    <div class="sound-desc">Casual tunes, passing chatter</div>
+                    <div class="waveform"></div>
+                    <audio preload="metadata">
+                        <source src="public/MARKETPLACE.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="about-container">
+            <h2 class="section-title">ABOUT</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="large-text">This website explores the sonic identity of campus life through poetry and film.</p>
+                    <p>Inspired by a 90-second sound story, the poem "When the Campus Speaks" translates the ambient soundscape of university spaces into verse, revealing how place speaks through rhythm, echo, and breath.</p>
+                    <p>The brutalist design reflects the raw, unfiltered nature of environmental sound—stark, honest, and unapologetically present.</p>
+                </div>
+                <div class="project-details">
+                    <div class="detail-item">
+                        <span class="detail-label">FORMAT</span>
+                        <span class="detail-value">DIGITAL POETRY + FILM</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">DURATION</span>
+                        <span class="detail-value">90 SECONDS</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">MEDIUM</span>
+                        <span class="detail-value">SOUND STORY</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">THEME</span>
+                        <span class="detail-value">LISTENING TO PLACE</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
